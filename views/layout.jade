@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title= title
+
+    // Viewport mobile tag for sensible mobile support
+    meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+
+    // STYLES
+    link(rel="stylesheet", href="/styles/style.css")
+    // STYLES END
+
+    block styles
+
+  body
+    block body
+    script(src="//code.jquery.com/jquery-1.11.2.min.js")
+    // SCRIPTS
+    script(src="/js/dependencies/sails.io.js")
+    script(src="/js/bootstrap/affix.js")
+    script(src="/js/bootstrap/alert.js")
+    script(src="/js/bootstrap/button.js")
+    script(src="/js/bootstrap/carousel.js")
+    script(src="/js/bootstrap/collapse.js")
+    script(src="/js/bootstrap/dropdown.js")
+    script(src="/js/bootstrap/modal.js")
+    script(src="/js/bootstrap/scrollspy.js")
+    script(src="/js/bootstrap/tab.js")
+    script(src="/js/bootstrap/transition.js")
+    // SCRIPTS END
